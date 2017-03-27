@@ -174,7 +174,7 @@ export default Counter;
 
 defaultNamespace 为该 Refect 组件的默认 namespace ，父级也可以取一个新的 namespace 来替换。例如在同一个 View 中使用同一个 Refect 组件多次时，为了让 每个 Refect 组件都有一个自己的 state，需要有不同的 namespace：
 
-```tsx
+```jsx
 function ParentView() {
   return (
     <div>
