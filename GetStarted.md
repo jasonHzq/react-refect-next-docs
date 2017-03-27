@@ -83,6 +83,9 @@ Tasks 负责异步处理。可以理解为 redux-thunk。
 
 可以通过 this.dispatch 方法  dispatch 外部 action，例如 redux-react-router 中定义的 action
 
+refect 默认使用 redux actions 系统做事件通信。可以通过 this.watch(pattern, callback) 来监听 action 和事件。
+pattern 可以是 action、函数、字符串（action 层级和名字）、数组。
+
 Reducer 和 Tasks 中的方法都会被统计到 this.actions 中。
 
 Tasks 的方法支持 async await，前提是你的应用有 generator-runtime。
