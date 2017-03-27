@@ -3,7 +3,3 @@
 ## Overview
 
 * [起步](GetStarted.md)
-
-## Methods
-
-* [Defining Methods](methods.md)
